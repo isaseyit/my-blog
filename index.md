@@ -1,21 +1,43 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
-<div class="home-container">
-  <div class="hero-section">
-    <h1>Welcome to My Blog</h1>
-    <p>Your go-to place for tech tutorials, insights, and my journey into the world of web development and engineering.</p>
+<header class="hero">
+  <div class="hero-content">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/ChatGPT_logo.png" alt="Logo" class="hero-logo">
+    <h2>Hi, I'm Isa Seyitmurat</h2>
+    <p>A passionate technology enthusiast, web developer, and system performance engineer.</p>
+    <a href="#about" class="btn-main">Learn More</a>
   </div>
+</header>
 
-  <div class="about-section">
+<section id="about" class="about-preview">
+  <div class="container">
     <h2>About Me</h2>
-    <p>Hi, I'm Isa! I'm a passionate tech enthusiast with a background in mechatronics engineering. I'm diving into web development and automation and love sharing my experiences through tutorials and blog posts.</p>
+    <p>
+      I'm passionate about the latest tech trends and building meaningful projects. I specialize in web development, system performance engineering, and Git. 
+      <br>
+      <a href="/about/" class="btn-main">Read More</a>
+    </p>
   </div>
+</section>
 
-  <div class="contact-section">
-    <h2>Contact Me</h2>
-    <p>If you want to collaborate or just chat about tech, feel free to reach out!</p>
+<section id="skills" class="skills-section">
+  <div class="container">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>System Performance Engineering</li>
+      <li>Git & GitHub</li>
+    </ul>
   </div>
-</div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <p>Have a project in mind or want to connect? Let's chat!</p>
+    <a href="/contact/" class="btn-main">Contact Me</a>
+  </div>
+</section>

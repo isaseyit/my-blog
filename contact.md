@@ -1,25 +1,18 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
-<div class="contact-container">
-  <div class="contact-header">
-    <h2>Contact Me</h2>
-  </div>
+# Contact Me
 
-  <div class="contact-content">
-    <p>Feel free to reach out to me if you have any questions, project ideas, or just want to chat!</p>
+Feel free to reach out to me if you have any questions, project ideas, or just want to chat!
 
-    <div class="contact-info">
-      <h3>Email:</h3>
-      <p><a href="mailto:isaseyit97@gmail.com">isaseyit97@gmail.com</a></p>
+## Email:
+[isaseyit97@gmail.com](mailto:isaseyit97@gmail.com)
 
-      <h3>Social Media:</h3>
-      <ul>
-        <li><a href="https://www.instagram.com/isa_seyitt">Instagram</a></li>
-        <li><a href="https://github.com/isaseyit">GitHub</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+## Social Media:
+- [Instagram](https://www.instagram.com/isa_seyitt)
+- [GitHub](https://github.com/isaseyit)
+
+Looking forward to hearing from you!
