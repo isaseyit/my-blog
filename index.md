@@ -3,11 +3,18 @@ layout: default
 title: Home
 ---
 
-<div class="hero">
-  <img src="https://openai.com/favicon.ico" alt="ChatGPT Logo" />
-  <h1>Welcome to My Blog</h1>
-</div>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <img src="https://your-image-url.com/logo.png" alt="Logo" class="hero-logo">
+    <h2>Welcome to My Blog!</h2>
+    <p>Hi, I'm Isa Seyitmurat! I'm passionate about technology, web development, and exploring new innovations. On this blog, I share my journey and tutorials on tech, engineering, and automation. Feel free to explore!</p>
+    <a href="#about" class="cta-btn">Learn More About Me</a>
+  </div>
+</section>
 
-# Latest Posts
-
-Here are some of my latest blog posts.
+<!-- Latest Post Section (Optional) -->
+<section class="latest-posts">
+  <h3>Latest Posts</h3>
+  <p>Coming soon! Stay tuned for updates on exciting new tech tutorials.</p>
+</section>

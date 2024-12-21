@@ -1,21 +1,19 @@
 ---
 layout: default
 title: About Me
-permalink: /about/
 ---
-# About Me
 
-Hi! I'm Isa Seyitmurat, a technology enthusiast passionate about the latest advancements in tech. I enjoy exploring new programming languages, building projects, and sharing knowledge with the community.
-
-I have a background in mechatronics engineering, and I'm currently diving into web development and automation. On this blog, I'll be sharing tutorials, thoughts, and updates on my journey in the tech world.
-
-Feel free to reach out if you'd like to collaborate or just chat about technology!
-
-## My Skills
-- Web Development (HTML, CSS, JavaScript)
-- System Performance Engineering
-- Git & GitHub
-
-## Contact Information
-Email: [isaseyit97@gmail.com](mailto:isaseyit97@gmail.com)
-
+<section class="about-section">
+  <div class="about-content">
+    <h2>About Me</h2>
+    <p>Hello! I'm Isa Seyitmurat, a tech enthusiast with a background in Mechatronics Engineering. I have a deep passion for web development and automation. On my journey, I explore new technologies, build exciting projects, and share my knowledge with others. I aim to inspire and help others grow in the tech world.</p>
+    <h3>My Skills</h3>
+    <ul>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>System Performance Engineering</li>
+      <li>Git & GitHub</li>
+    </ul>
+    <h3>Contact Information</h3>
+    <p>You can reach me via email at [isaseyit97@gmail.com](mailto:isaseyit97@gmail.com) or follow me on my social media links below.</p>
+  </div>
+</section>
