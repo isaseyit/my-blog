@@ -33,11 +33,13 @@ github_username:  isaseyit
 theme: minima
 plugins:
   - jekyll-feed
+
+
 navigation:
   - title: "Home"
-    url: /
+    url: /my-blog/  # Add the subpath here
   - title: "About"
-    url: /about/
+    url: /my-blog/about/  # Add the subpath here
 
 
 # Exclude from processing.
