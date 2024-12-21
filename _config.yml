@@ -30,7 +30,6 @@ instagram_username: isa_seyitt
 github_username:  isaseyit
 
 # Build settings
-markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
