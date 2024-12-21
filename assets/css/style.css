@@ -1,202 +1,159 @@
-/* Global Settings */
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f7fafc;
+/* Reset some defaults */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
 }
 
-h1, h2, h3 {
-  font-weight: bold;
-  color: #2d3748;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-/* Hero Section */
-.hero {
-  background-color: #2b6cb0; /* Dark blue background */
+header {
+  background-color: #343a40;
   color: white;
-  padding: 60px 20px; /* Add padding */
+  padding: 10px 0;
   text-align: center;
-  margin-bottom: 30px;
 }
 
-.hero-logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.hero h2 {
+header h1 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
 }
 
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+nav ul {
+  list-style: none;
+  padding: 10px;
 }
 
-.cta-btn {
-  background-color: #63b3ed;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
   color: white;
-  padding: 12px 30px;
-  font-size: 1rem;
-  border-radius: 4px;
   text-decoration: none;
 }
 
-.cta-btn:hover {
-  background-color: #3182ce;
-}
-
-/* About Section */
-.about-section {
-  padding: 60px 20px;
-  background-color: #ffffff; /* Light background */
-  text-align: center;
-  margin-top: 30px;
-}
-
-.about-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.about-section p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-  line-height: 1.5;
-}
-
-.about-section h3 {
-  font-size: 2rem;
-  margin-top: 30px;
-}
-
-.about-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.about-section ul li {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
-}
-
-/* Contact Section */
-.contact-section {
-  padding: 60px 20px;
-  background-color: #edf2f7; /* Light background */
-  text-align: center;
-  margin-top: 30px;
-}
-
-.contact-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.contact-section p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.contact-section ul {
-  padding: 0;
-}
-
-.contact-section li {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.contact-section a {
-  color: #3182ce;
-  font-size: 1.1rem;
-}
-
-.contact-section a:hover {
-  text-decoration: underline;
-}
-
-/* Latest Posts Section */
-.latest-posts {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #edf2f7; /* Light background */
-  margin-top: 30px;
-}
-
-.latest-posts h3 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.latest-posts p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-/* Footer */
 footer {
-  background-color: #2b6cb0; /* Dark Blue */
+  background-color: #343a40;
   color: white;
-  padding: 30px 20px;
+  padding: 20px 0;
   text-align: center;
-}
-
-footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-footer li {
-  margin-bottom: 10px;
 }
 
 footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Home Page */
+.home-container {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero-section {
+  background-color: #1e90ff;
   color: white;
-  font-size: 1.1rem;
+  padding: 50px 0;
 }
 
-footer a:hover {
-  color: #63b3ed;
-  text-decoration: underline;
+.hero-section h1 {
+  font-size: 3rem;
 }
 
-/* Responsiveness for Smaller Screens */
-@media (max-width: 768px) {
-  .hero h2 {
-    font-size: 2rem;
-  }
+.hero-section p {
+  font-size: 1.25rem;
+}
 
-  .hero p {
-    font-size: 1rem;
-  }
+/* About Page */
+.about-container {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
 
-  .cta-btn {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  .about-section h2,
-  .contact-section h2 {
-    font-size: 2rem;
-  }
+.about-header h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
 
-  .about-section p,
-  .contact-section p {
-    font-size: 1rem;
-  }
+.about-content {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.skills li {
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info a {
+  color: #1e90ff;
+}
+
+/* Contact Page */
+.contact-container {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #1e90ff;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 10px 0;
 }
