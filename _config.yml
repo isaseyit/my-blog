@@ -21,9 +21,8 @@
 title: Isa Seyitmurat Blog
 email: isaseyit97@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I am Isa I am deeply into the latest tec. and I am really exchited to make my first project. Text me out If you'd like to be a partner on getting into a new Project!
+
 baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://isaseyit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: isa_seyitt
@@ -37,10 +36,11 @@ plugins:
 
 navigation:
   - title: "Home"
-    url: /my-blog/  # Add the subpath here
+    url: /
   - title: "About"
-    url: /my-blog/about/  # Add the subpath here
-
+    url: /about/
+  - title: "Contact"
+    url: /contact/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
