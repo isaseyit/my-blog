@@ -1,0 +1,17 @@
+---
+# The layout header, you can set any properties you want here
+layout: default
+---
+
+<article class="post">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">
+      Posted on {{ page.date | date: "%B %d, %Y" }}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

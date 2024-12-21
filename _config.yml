@@ -30,17 +30,15 @@ instagram_username: isa_seyitt
 github_username:  isaseyit
 
 # Build settings
-theme: jekyll-theme-minimal
+markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 navigation:
   - title: "Home"
     url: /
   - title: "About"
     url: /about/
-  - title: "Contact"
-    url: /contact/
 
 
 # Exclude from processing.
