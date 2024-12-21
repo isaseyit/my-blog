@@ -1,12 +1,18 @@
 ---
-layout: page
+layout: default
 title: Contact
-permalink: /contact/
 ---
 
 # Contact Me
 
-You can reach me through email: [isaseyit97@gmail.com](mailto:isaseyit97@gmail.com).
-Also feel free to reach me with +90 541 677 55 81
+Feel free to reach out to me if you have any questions, project ideas, or just want to chat!
 
-Feel free to send me a message or ask any questions.
+## Email:
+[isaseyit97@gmail.com](mailto:isaseyit97@gmail.com)
+
+## Social Media:
+- [Instagram](https://www.instagram.com/isa_seyitt)
+- [GitHub](https://github.com/isaseyit)
+
+Looking forward to hearing from you!
+
