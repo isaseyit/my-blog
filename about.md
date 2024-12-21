@@ -1,8 +1,8 @@
 ---
 layout: default
 title: About Me
+permalink: /about/
 ---
-
 # About Me
 
 Hi! I'm Isa Seyitmurat, a technology enthusiast passionate about the latest advancements in tech. I enjoy exploring new programming languages, building projects, and sharing knowledge with the community.
