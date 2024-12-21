@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "My First Post"
-date: 2024-12-21 12:00:00 +0000
-categories: [blog]
+date: 2024-12-21 12:00:00 +000
 ---
 
 # Welcome to my first post!
