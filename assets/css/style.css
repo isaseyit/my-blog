@@ -1,86 +1,136 @@
-/* Global Styles */
+/* General Styling */
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
   margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
 }
 
 .container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
-/* Header */
-header {
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 10px 0;
+/* Hero Section */
+.hero {
+  background-color: #1a202c; /* Dark background color */
+  height: 60vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+}
+
+.hero img {
+  width: 150px; /* Adjust the width of the logo */
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 3rem;
   text-align: center;
+  margin-top: 20px;
 }
 
-header h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+
+.hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
+.hero a {
+  background-color: #ff5e5b;
+  color: white;
+  padding: 10px 20px;
   text-decoration: none;
-  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1.1em;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+.hero a:hover {
+  background-color: #e04e4b;
 }
 
-/* Footer */
-footer {
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-footer p {
-  margin: 5px 0;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Main Content */
-main {
+/* Skills Section */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
   padding: 50px 0;
+  text-align: center;
 }
 
-h2 {
-  font-size: 32px;
-  color: #333;
+.skills .skill {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.skills .skill:hover {
+  transform: translateY(-10px);
+}
+
+.skills .skill img {
+  width: 60px;
+  height: 60px;
   margin-bottom: 20px;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #555;
+.skills .skill h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
+.skills .skill p {
+  color: #777;
+}
+
+/* Latest Posts Section */
+.latest-posts {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.latest-posts h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.latest-posts .posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.latest-posts .post {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.latest-posts .post h3 {
+  font-size: 1.6em;
+  color: #333;
+}
+
+.latest-posts .post p {
+  color: #777;
+}
+
+.latest-posts .post a {
+  text-decoration: none;
+  color: #ff5e5b;
+}
+
+.latest-posts .post a:hover {
+  text-decoration: underline;
+}

@@ -3,14 +3,11 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Blog!
+<div class="hero">
+  <img src="https://openai.com/favicon.ico" alt="ChatGPT Logo" />
+  <h1>Welcome to My Blog</h1>
+</div>
 
-Welcome to my personal blog, where I share insights on the latest technology, tutorials, and projects I'm working on. Stay tuned for updates!
+# Latest Posts
 
-## Featured Posts
-- [How to Get Started with Jekyll](#)
-- [My First GitHub Pages Project](#)
-- [Tips for New Developers](#)
-
-Feel free to explore my site and connect with me.
-
+Here are some of my latest blog posts.
